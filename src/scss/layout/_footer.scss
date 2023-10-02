@@ -1,0 +1,39 @@
+@use'../base/variables' as v;
+@use'../base/mixins' as m;
+
+
+.footer{
+    width: 100%;
+ 
+    padding: 1.3rem;
+
+    font-size: 1.5rem;
+    font-family: v.$fuente;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+
+.firma{
+    width: 25%;
+    display: flex;
+    justify-items: center;
+    align-items: center; transition: all ease 300ms;
+
+    
+    &:hover{
+
+        transform: scale(1.1);
+    }
+
+   a{
+    
+    width: 35%;
+   
+
+
+   }
+   
+}
